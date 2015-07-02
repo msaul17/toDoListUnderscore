@@ -1,15 +1,9 @@
 $(function() {
 
-   // form to create new todo
   var $newToDo = $('#new-todo');
-
-  // element to hold our list of todos
   var $toDoList = $('#todo-list');
-
-  // todo template
   var toDoTemplate = _.template($('#todo-template').html());
 
-  // constructor functions
   function ToDo(name, desc) {
     this.name = name;
     this.desc = desc;
