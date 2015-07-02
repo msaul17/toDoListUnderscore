@@ -1,0 +1,21 @@
+body {
+  font-size: 18px;
+  background-color: black;
+}
+
+.todo-text:hover, .todo-text.done {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+#color {
+	background-color: gray;
+}
+
+.text-color {
+	color: white;
+}
+
+.container {
+	margin-top: 80px;
+}
